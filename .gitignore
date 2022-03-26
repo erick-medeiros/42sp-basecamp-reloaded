@@ -1,0 +1,91 @@
+# *
+# !ex*
+# ex*/*
+# !ex00/exo.tar
+# !ex01/z
+# !ex02/clean
+# !ex03/find_sh.sh
+# !ex04/MAC.sh
+# !ex05/"\?$*'MaRViN'*$?\"
+# !ex06/ft_print_alphabet.c
+# !ex07/ft_print_numbers.c
+# !ex08/ft_is_negative.c
+# !ex09/ft_ft.c
+# !ex10/ft_swap.c
+# !ex11/ft_div_mod.c
+# !ex12/ft_iterative_factorial.c
+# !ex13/ft_recursive_factorial.c
+# !ex14/ft_sqrt.c
+# !ex15/ft_putstr.c
+# !ex16/ft_strlen.c
+# !ex17/ft_strcmp.c
+# !ex18/ft_print_params.c
+# !ex19/ft_sort_params.c
+# !ex20/ft_strdup.c
+# !ex21/ft_range.c
+# !ex22/ft_abs.h
+# !ex23/ft_point.h
+# !ex24/Makefile
+# !ex25/ft_foreach.c
+# !ex26/ft_count_if.c
+# !ex27/Makefile
+# !ex27/*
+
+# Created by https://www.toptal.com/developers/gitignore/api/c
+# Edit at https://www.toptal.com/developers/gitignore?templates=c
+
+### C ###
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# End of https://www.toptal.com/developers/gitignore/api/c
