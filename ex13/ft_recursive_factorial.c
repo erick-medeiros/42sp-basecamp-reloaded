@@ -6,7 +6,7 @@
 /*   By: eandre-f <eandre-f@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/27 22:19:35 by eandre-f          #+#    #+#             */
-/*   Updated: 2022/03/27 22:54:14 by eandre-f         ###   ########.fr       */
+/*   Updated: 2022/03/27 22:57:39 by eandre-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,5 +26,5 @@ int	ft_recursive_factorial(int nb)
 	if (nb == 0)
 		return (1);
 	factorial = 1;
-	return ft_recursive(factorial, nb);
+	return (ft_recursive(factorial, nb));
 }
