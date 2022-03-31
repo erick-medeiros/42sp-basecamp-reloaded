@@ -6,7 +6,7 @@
 /*   By: eandre-f <eandre-f@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 05:13:14 by eandre-f          #+#    #+#             */
-/*   Updated: 2022/03/31 16:54:42 by eandre-f         ###   ########.fr       */
+/*   Updated: 2022/04/01 01:49:51 by eandre-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,6 @@ int	ft_display_file(char *file_path)
 		write(1, buffer, read_bytes);
 		read_bytes = read(fd, buffer, BUFFSIZE);
 	}
-	write(1, "\n", 1);
 	r_close = close(fd);
 	if (r_close < 0)
 		return (1);
