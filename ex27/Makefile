@@ -1,14 +1,20 @@
 NAME = ft_display_file
+SRCS = ${wildcard *.c}
+OBJS = ${SRCS:.c=.o}
 CFLAGS = -Wall -Wextra -Werror
 
-all:
-	gcc ${CFLAGS} ft_display_file.c -o ft_display_file
+%.o: %.c
+	gcc ${CFLAGS} -c $< -o $@
+
+${NAME}: ${OBJS}
+	gcc ${CFLAGS} ${OBJS} -o ${NAME}
+
+all: ${NAME}
 
 clean:
-	rm -fr ${NAME}
+	rm -fr ${OBJS}
 
 fclean: clean
-
-re: fclean all
+	rm -fr ${NAME}
 
 .PHONY: all clean fclean
