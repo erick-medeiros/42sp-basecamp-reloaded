@@ -18,7 +18,7 @@ chmod 714 test1
 chmod 504 test2
 chmod 404 test3
 chmod 641 test4
-ls -l --time-style=full-iso
 rm exo.tar
 tar -cf exo.tar *
+ls -l --time-style=full-iso
 rm -rf test*
