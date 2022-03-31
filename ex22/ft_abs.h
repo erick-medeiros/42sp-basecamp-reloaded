@@ -6,8 +6,11 @@
 /*   By: eandre-f <eandre-f@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/29 19:19:05 by eandre-f          #+#    #+#             */
-/*   Updated: 2022/03/29 19:32:36 by eandre-f         ###   ########.fr       */
+/*   Updated: 2022/03/31 23:51:53 by eandre-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#define ABS(Value) Value
+#ifndef FT_ABS_H
+# define FT_ABS_H
+# define ABS(Value) (Value < 0) ? Value * -1 : Value;
+#endif
