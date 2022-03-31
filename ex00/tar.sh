@@ -19,6 +19,6 @@ chmod 504 test2
 chmod 404 test3
 chmod 641 test4
 rm exo.tar
-tar -cf exo.tar *
+tar -cf exo.tar test*
 ls -l --time-style=full-iso
 rm -rf test*
