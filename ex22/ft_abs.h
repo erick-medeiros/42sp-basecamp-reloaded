@@ -6,11 +6,11 @@
 /*   By: eandre-f <eandre-f@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/29 19:19:05 by eandre-f          #+#    #+#             */
-/*   Updated: 2022/03/31 23:51:53 by eandre-f         ###   ########.fr       */
+/*   Updated: 2022/04/01 01:29:41 by eandre-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_ABS_H
 # define FT_ABS_H
-# define ABS(Value) (Value < 0) ? Value * -1 : Value;
+# define ABS(x) (x < 0 ? x * -1 : x)
 #endif
