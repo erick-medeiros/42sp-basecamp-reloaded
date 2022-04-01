@@ -1,3 +1,4 @@
+# descompactar:
 # tar -xf exo.tar
 clear
 mkdir test0 test2
